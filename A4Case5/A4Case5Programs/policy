@@ -1,0 +1,3 @@
+grant codeBase "file:/home/arvnair/src1/"{
+	permission java.security.AllPermission;
+};

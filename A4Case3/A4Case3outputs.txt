@@ -1,0 +1,755 @@
+/*Running the MO server rmiregistry*/
+login as: arvnair
+arvnair@10.234.140.27's password:
+Last login: Sun Nov 30 13:34:03 2014 from 140-182-67-59.ssl-vpn.iupui.edu
+[arvnair@sl253-rrpc01 ~]$ cd src1
+[arvnair@sl253-rrpc01 src1]$ ./rmiregistry.sh
+^C[arvnair@sl253-rrpc01 src1]$
+
+
+/*MO Counter Output*/
+login as: arvnair
+arvnair@10.234.140.27's password:
+Last login: Sun Nov 30 14:16:11 2014 from 140-182-67-59.ssl-vpn.iupui.edu
+[arvnair@sl253-rrpc01 ~]$ cd src1
+[arvnair@sl253-rrpc01 src1]$ ./mo.sh
+Creating a Master Object!
+MasterObject: binding it to name: //10.234.140.27:2016/MasterObj
+Master Object Ready!
+Ready to connect to PO1?(y/n)
+y
+Ready to connect to PO2?(y/n)
+y
+Ready to connect to PO3?(y/n)
+y
+Ready to connect to PO4?(y/n)
+y
+Ready to start MO?(y/n)
+y
+MO Counter: 0
+MO Counter: 0
+MO Counter: 4
+MO Counter: 5
+MO Counter: 5
+MO Counter: 5
+MO Counter: 5
+MO Counter: 6
+MO Counter: 10
+MO Counter: 14
+MO Counter: 17
+MO Counter: 20
+MO Counter: 23
+MO Counter: 25
+MO Counter: 27
+MO Counter: 29
+MO Counter: 32
+MO Counter: 27
+MO Counter: 27
+MO Counter: 27
+MO Counter: 59
+MO Counter: 61
+MO Counter: 49
+MO Counter: 54
+MO Counter: 54
+MO Counter: 56
+MO Counter: 113
+MO Counter: 115
+MO Counter: 118
+MO Counter: 121
+MO Counter: 122
+MO Counter: 125
+MO Counter: 125
+MO Counter: 125
+MO Counter: 125
+MO Counter: 128
+MO Counter: 131
+MO Counter: 133
+MO Counter: 135
+MO Counter: 134
+MO Counter: 134
+MO Counter: 139
+MO Counter: 140
+MO Counter: 140
+MO Counter: 142
+MO Counter: 145
+MO Counter: 148
+MO Counter: 149
+MO Counter: 149
+MO Counter: 149
+MO Counter: 152
+MO Counter: 155
+MO Counter: 158
+MO Counter: 161
+MO Counter: 163
+MO Counter: 165
+MO Counter: 165
+MO Counter: 165
+MO Counter: 166
+MO Counter: 168
+MO Counter: 172
+MO Counter: 172
+MO Counter: 173
+MO Counter: 173
+MO Counter: 173
+MO Counter: 202
+MO Counter: 204
+MO Counter: 206
+MO Counter: 208
+MO Counter: 212
+MO Counter: 214
+MO Counter: 215
+MO Counter: 218
+MO Counter: 216
+MO Counter: 216
+MO Counter: 220
+MO Counter: 222
+MO Counter: 224
+MO Counter: 224
+MO Counter: 224
+MO Counter: 225
+MO Counter: 225
+MO Counter: 228
+MO Counter: 230
+MO Counter: 233
+MO Counter: 240
+MO Counter: 242
+MO Counter: 243
+MO Counter: 245
+MO Counter: 248
+MO Counter: 248
+MO Counter: 248
+MO Counter: 251
+MO Counter: 253
+MO Counter: 253
+MO Counter: 255
+MO Counter: 258
+MO Counter: 261
+MO Counter: 264
+MO Counter: 263
+MO Counter: 263
+MO Counter: 265
+MO Counter: 266
+MO Counter: 268
+MO Counter: 275
+MO Counter: 278
+MO Counter: 280
+MO Counter: 278
+MO Counter: 278
+MO Counter: 278
+MO Counter: 283
+MO Counter: 286
+MO Counter: 289
+MO Counter: 291
+MO Counter: 293
+MO Counter: 296
+MO Counter: 297
+MO Counter: 299
+MO Counter: 298
+MO Counter: 298
+^C[arvnair@sl253-rrpc01 src1]$
+
+
+/*Running the PO1 server rmiregistry*/
+login as: arvnair
+arvnair@10.234.140.28's password:
+Last login: Sun Nov 30 13:35:35 2014 from 140-182-67-59.ssl-vpn.iupui.edu
+[arvnair@sl253-rrpc02 ~]$ cd src1
+[arvnair@sl253-rrpc02 src1]$ ./rmiregistry.sh
+^C[arvnair@sl253-rrpc02 src1]$
+
+
+/*PO1 Counter Output*/
+login as: arvnair
+arvnair@10.234.140.28's password:
+Last login: Sun Nov 30 14:17:34 2014 from 140-182-67-59.ssl-vpn.iupui.edu
+[arvnair@sl253-rrpc02 ~]$ cd src1
+[arvnair@sl253-rrpc02 src1]$ ./po1.sh
+Creating Process Object 1!
+ProcessObject1: binding it to name: //10.234.140.28:2016/ProcessObj1
+Process Object 1 is Ready!
+Ready to connect to MO?(y/n)
+y
+Ready to connect to PO2?(y/n)
+y
+Ready to connect to PO3?(y/n)
+y
+Ready to connect to PO4?(y/n)
+y
+Ready to start PO1?(y/n)
+y
+PO1 Counter: 1
+PO1 Counter: 2
+PO1 Counter: 4
+PO1 Counter: 6
+PO1 Counter: 8
+PO1 Counter: 8
+PO1 Counter: 10
+PO1 Counter: 11
+PO1 Counter: 14
+PO1 Counter: 15
+PO1 Counter: 16
+PO1 Counter: 20
+PO1 Counter: 20
+PO1 Counter: 23
+PO1 Counter: 24
+PO1 Counter: 28
+PO1 Counter: 25
+PO1 Counter: 22
+PO1 Counter: 58
+PO1 Counter: 59
+PO1 Counter: 61
+PO1 Counter: 49
+PO1 Counter: 40
+PO1 Counter: 54
+PO1 Counter: 55
+PO1 Counter: 56
+PO1 Counter: 57
+PO1 Counter: 58
+PO1 Counter: 58
+PO1 Counter: 59
+PO1 Counter: 125
+PO1 Counter: 123
+PO1 Counter: 121
+PO1 Counter: 122
+PO1 Counter: 123
+PO1 Counter: 124
+PO1 Counter: 125
+PO1 Counter: 126
+PO1 Counter: 133
+PO1 Counter: 134
+PO1 Counter: 135
+PO1 Counter: 139
+PO1 Counter: 141
+PO1 Counter: 142
+PO1 Counter: 145
+PO1 Counter: 147
+PO1 Counter: 147
+PO1 Counter: 147
+PO1 Counter: 147
+PO1 Counter: 147
+PO1 Counter: 148
+PO1 Counter: 149
+PO1 Counter: 161
+PO1 Counter: 163
+PO1 Counter: 165
+PO1 Counter: 166
+PO1 Counter: 167
+PO1 Counter: 168
+PO1 Counter: 168
+PO1 Counter: 169
+PO1 Counter: 170
+PO1 Counter: 171
+PO1 Counter: 172
+PO1 Counter: 200
+PO1 Counter: 202
+PO1 Counter: 204
+PO1 Counter: 205
+PO1 Counter: 208
+PO1 Counter: 210
+PO1 Counter: 210
+PO1 Counter: 211
+PO1 Counter: 214
+PO1 Counter: 217
+PO1 Counter: 218
+PO1 Counter: 219
+PO1 Counter: 222
+PO1 Counter: 222
+PO1 Counter: 222
+PO1 Counter: 223
+PO1 Counter: 224
+PO1 Counter: 225
+PO1 Counter: 226
+PO1 Counter: 227
+PO1 Counter: 227
+PO1 Counter: 228
+PO1 Counter: 228
+PO1 Counter: 242
+PO1 Counter: 244
+PO1 Counter: 246
+PO1 Counter: 249
+PO1 Counter: 251
+PO1 Counter: 250
+PO1 Counter: 250
+PO1 Counter: 250
+PO1 Counter: 251
+PO1 Counter: 252
+PO1 Counter: 260
+PO1 Counter: 263
+PO1 Counter: 261
+PO1 Counter: 262
+PO1 Counter: 262
+PO1 Counter: 265
+PO1 Counter: 273
+PO1 Counter: 274
+PO1 Counter: 275
+PO1 Counter: 277
+PO1 Counter: 277
+PO1 Counter: 276
+PO1 Counter: 276
+PO1 Counter: 284
+PO1 Counter: 286
+PO1 Counter: 289
+PO1 Counter: 291
+PO1 Counter: 293
+PO1 Counter: 293
+PO1 Counter: 295
+PO1 Counter: 297
+PO1 Counter: 296
+PO1 Counter: 297
+PO1 Counter: 298
+^C[arvnair@sl253-rrpc02 src1]$
+
+
+/*Running the PO2 server rmiregistry*/
+login as: arvnair
+arvnair@10.234.140.29's password:
+Last login: Sun Nov 30 13:37:03 2014 from 140-182-67-59.ssl-vpn.iupui.edu
+[arvnair@sl253-rrpc03 ~]$ cd src1
+[arvnair@sl253-rrpc03 src1]$ ./rmiregistry.sh
+^C[arvnair@sl253-rrpc03 src1]$
+
+
+/*PO2 Counter Output*/
+login as: arvnair
+arvnair@10.234.140.29's password:
+Last login: Sun Nov 30 14:18:43 2014 from 140-182-67-59.ssl-vpn.iupui.edu
+[arvnair@sl253-rrpc03 ~]$ cd src1
+[arvnair@sl253-rrpc03 src1]$ ./po2.sh
+Creating Process Object 2!
+Process Object 2: binding it to name: //10.234.140.29:2016/ProcessObj2
+Process Object 2 is Ready!
+Ready to connect to MO?(y/n)
+y
+Ready to connect to PO1?(y/n)
+y
+Ready to connect to PO3?(y/n)
+y
+Ready to connect to PO4?(y/n)
+y
+Ready to start PO2?(y/n)
+y
+PO2 Counter: 1
+PO2 Counter: 3
+PO2 Counter: 5
+PO2 Counter: 7
+PO2 Counter: 7
+PO2 Counter: 7
+PO2 Counter: 12
+PO2 Counter: 15
+PO2 Counter: 18
+PO2 Counter: 19
+PO2 Counter: 21
+PO2 Counter: 22
+PO2 Counter: 22
+PO2 Counter: 23
+PO2 Counter: 24
+PO2 Counter: 25
+PO2 Counter: 25
+PO2 Counter: 26
+PO2 Counter: 26
+PO2 Counter: 61
+PO2 Counter: 83
+PO2 Counter: 110
+PO2 Counter: 110
+PO2 Counter: 113
+PO2 Counter: 113
+PO2 Counter: 118
+PO2 Counter: 119
+PO2 Counter: 120
+PO2 Counter: 121
+PO2 Counter: 122
+PO2 Counter: 123
+PO2 Counter: 123
+PO2 Counter: 124
+PO2 Counter: 125
+PO2 Counter: 127
+PO2 Counter: 129
+PO2 Counter: 130
+PO2 Counter: 137
+PO2 Counter: 139
+PO2 Counter: 140
+PO2 Counter: 139
+PO2 Counter: 139
+PO2 Counter: 140
+PO2 Counter: 141
+PO2 Counter: 141
+PO2 Counter: 142
+PO2 Counter: 147
+PO2 Counter: 151
+PO2 Counter: 155
+PO2 Counter: 158
+PO2 Counter: 159
+PO2 Counter: 159
+PO2 Counter: 159
+PO2 Counter: 166
+PO2 Counter: 170
+PO2 Counter: 170
+PO2 Counter: 171
+PO2 Counter: 172
+PO2 Counter: 172
+PO2 Counter: 170
+PO2 Counter: 171
+PO2 Counter: 171
+PO2 Counter: 173
+PO2 Counter: 174
+PO2 Counter: 174
+PO2 Counter: 175
+PO2 Counter: 206
+PO2 Counter: 210
+PO2 Counter: 210
+PO2 Counter: 212
+PO2 Counter: 212
+PO2 Counter: 214
+PO2 Counter: 219
+PO2 Counter: 221
+PO2 Counter: 221
+PO2 Counter: 222
+PO2 Counter: 222
+PO2 Counter: 223
+PO2 Counter: 224
+PO2 Counter: 226
+PO2 Counter: 227
+PO2 Counter: 228
+PO2 Counter: 240
+PO2 Counter: 241
+PO2 Counter: 241
+PO2 Counter: 242
+PO2 Counter: 243
+PO2 Counter: 244
+PO2 Counter: 247
+PO2 Counter: 247
+PO2 Counter: 248
+PO2 Counter: 251
+PO2 Counter: 252
+PO2 Counter: 252
+PO2 Counter: 253
+PO2 Counter: 254
+PO2 Counter: 255
+PO2 Counter: 262
+PO2 Counter: 262
+PO2 Counter: 262
+PO2 Counter: 265
+PO2 Counter: 267
+PO2 Counter: 268
+PO2 Counter: 268
+PO2 Counter: 269
+PO2 Counter: 270
+PO2 Counter: 276
+PO2 Counter: 276
+PO2 Counter: 284
+PO2 Counter: 287
+PO2 Counter: 287
+PO2 Counter: 287
+PO2 Counter: 290
+PO2 Counter: 290
+PO2 Counter: 296
+PO2 Counter: 297
+PO2 Counter: 303
+PO2 Counter: 304
+PO2 Counter: 306
+PO2 Counter: 309
+^C[arvnair@sl253-rrpc03 src1]$
+
+
+/*Running the PO3 server rmiregistry*/
+login as: arvnair
+arvnair@10.234.140.30's password:
+Last login: Sun Nov 30 13:38:22 2014 from 140-182-67-59.ssl-vpn.iupui.edu
+[arvnair@sl253-rrpc04 ~]$ cd src1
+[arvnair@sl253-rrpc04 src1]$ ./rmiregistry.sh
+^C[arvnair@sl253-rrpc04 src1]$
+
+
+/*PO3 Counter Output*/
+login as: arvnair
+arvnair@10.234.140.30's password:
+Last login: Sun Nov 30 14:19:52 2014 from 140-182-67-59.ssl-vpn.iupui.edu
+[arvnair@sl253-rrpc04 ~]$ cd src1
+[arvnair@sl253-rrpc04 src1]$ ./po3.sh
+Creating Process Object 3!
+Process Object 3: binding it to name: //10.234.140.30:2016/ProcessObj3
+Process Object 3 is Ready!
+Ready to connect to MO?(y/n)
+y
+Ready to connect to PO1?(y/n)
+y
+Ready to connect to PO2?(y/n)
+y
+Ready to connect to PO4?(y/n)
+y
+Ready to start PO3?(y/n)
+y
+PO3 Counter: 1
+PO3 Counter: 3
+PO3 Counter: 5
+PO3 Counter: 6
+PO3 Counter: 8
+PO3 Counter: 9
+PO3 Counter: 13
+PO3 Counter: 16
+PO3 Counter: 19
+PO3 Counter: 21
+PO3 Counter: 23
+PO3 Counter: 24
+PO3 Counter: 26
+PO3 Counter: 27
+PO3 Counter: 26
+PO3 Counter: 24
+PO3 Counter: 25
+PO3 Counter: 26
+PO3 Counter: 60
+PO3 Counter: 61
+PO3 Counter: 52
+PO3 Counter: 53
+PO3 Counter: 54
+PO3 Counter: 114
+PO3 Counter: 117
+PO3 Counter: 118
+PO3 Counter: 120
+PO3 Counter: 121
+PO3 Counter: 124
+PO3 Counter: 123
+PO3 Counter: 122
+PO3 Counter: 123
+PO3 Counter: 125
+PO3 Counter: 127
+PO3 Counter: 129
+PO3 Counter: 131
+PO3 Counter: 135
+PO3 Counter: 136
+PO3 Counter: 140
+PO3 Counter: 139
+PO3 Counter: 140
+PO3 Counter: 141
+PO3 Counter: 142
+PO3 Counter: 144
+PO3 Counter: 147
+PO3 Counter: 150
+PO3 Counter: 151
+PO3 Counter: 152
+PO3 Counter: 156
+PO3 Counter: 157
+PO3 Counter: 158
+PO3 Counter: 162
+PO3 Counter: 164
+PO3 Counter: 165
+PO3 Counter: 166
+PO3 Counter: 167
+PO3 Counter: 169
+PO3 Counter: 173
+PO3 Counter: 171
+PO3 Counter: 169
+PO3 Counter: 167
+PO3 Counter: 168
+PO3 Counter: 202
+PO3 Counter: 203
+PO3 Counter: 204
+PO3 Counter: 205
+PO3 Counter: 209
+PO3 Counter: 210
+PO3 Counter: 211
+PO3 Counter: 212
+PO3 Counter: 215
+PO3 Counter: 218
+PO3 Counter: 220
+PO3 Counter: 221
+PO3 Counter: 222
+PO3 Counter: 223
+PO3 Counter: 224
+PO3 Counter: 225
+PO3 Counter: 226
+PO3 Counter: 227
+PO3 Counter: 228
+PO3 Counter: 239
+PO3 Counter: 241
+PO3 Counter: 242
+PO3 Counter: 243
+PO3 Counter: 244
+PO3 Counter: 247
+PO3 Counter: 249
+PO3 Counter: 250
+PO3 Counter: 252
+PO3 Counter: 253
+PO3 Counter: 254
+PO3 Counter: 258
+PO3 Counter: 259
+PO3 Counter: 260
+PO3 Counter: 261
+PO3 Counter: 261
+PO3 Counter: 263
+PO3 Counter: 264
+PO3 Counter: 265
+PO3 Counter: 266
+PO3 Counter: 268
+PO3 Counter: 270
+PO3 Counter: 271
+PO3 Counter: 277
+PO3 Counter: 282
+PO3 Counter: 283
+PO3 Counter: 285
+PO3 Counter: 286
+PO3 Counter: 287
+PO3 Counter: 288
+PO3 Counter: 289
+PO3 Counter: 290
+PO3 Counter: 291
+PO3 Counter: 292
+PO3 Counter: 301
+PO3 Counter: 302
+PO3 Counter: 303
+PO3 Counter: 307
+PO3 Counter: 309
+^C[arvnair@sl253-rrpc04 src1]$
+
+
+/*Running the PO4 server rmiregistry*/
+login as: arvnair
+arvnair@10.234.140.31's password:
+Last login: Sun Nov 30 13:39:48 2014 from 140-182-67-59.ssl-vpn.iupui.edu
+[arvnair@sl253-rrpc05 ~]$ cd src1
+[arvnair@sl253-rrpc05 src1]$ ./rmiregistry.sh
+^C[arvnair@sl253-rrpc05 src1]$
+
+
+/*PO4 Counter Output*/
+login as: arvnair
+arvnair@10.234.140.31's password:
+Last login: Sun Nov 30 14:21:15 2014 from 140-182-67-59.ssl-vpn.iupui.edu
+[arvnair@sl253-rrpc05 ~]$ cd src1
+[arvnair@sl253-rrpc05 src1]$ ./po4.sh
+Creating Process Object 4!
+Process Object 4: binding it to name: //10.234.140.31:2016/ProcessObj4
+Process Object 4 is Ready!
+Ready to connect to MO?(y/n)
+y
+Ready to connect to PO1?(y/n)
+y
+Ready to connect to PO2?(y/n)
+y
+Ready to connect to PO3?(y/n)
+y
+Ready to start PO4?(y/n)
+y
+PO4 Counter: 1
+PO4 Counter: 3
+PO4 Counter: 3
+PO4 Counter: 7
+PO4 Counter: 11
+PO4 Counter: 12
+PO4 Counter: 12
+PO4 Counter: 12
+PO4 Counter: 19
+PO4 Counter: 19
+PO4 Counter: 23
+PO4 Counter: 24
+PO4 Counter: 27
+PO4 Counter: 42
+PO4 Counter: 56
+PO4 Counter: 57
+PO4 Counter: 58
+PO4 Counter: 60
+PO4 Counter: 47
+PO4 Counter: 39
+PO4 Counter: 39
+PO4 Counter: 54
+PO4 Counter: 54
+PO4 Counter: 115
+PO4 Counter: 115
+PO4 Counter: 119
+PO4 Counter: 119
+PO4 Counter: 121
+PO4 Counter: 130
+PO4 Counter: 138
+PO4 Counter: 138
+PO4 Counter: 140
+PO4 Counter: 142
+PO4 Counter: 142
+PO4 Counter: 143
+PO4 Counter: 134
+PO4 Counter: 135
+PO4 Counter: 137
+PO4 Counter: 141
+PO4 Counter: 141
+PO4 Counter: 142
+PO4 Counter: 144
+PO4 Counter: 146
+PO4 Counter: 148
+PO4 Counter: 149
+PO4 Counter: 150
+PO4 Counter: 153
+PO4 Counter: 153
+PO4 Counter: 158
+PO4 Counter: 160
+PO4 Counter: 160
+PO4 Counter: 161
+PO4 Counter: 163
+PO4 Counter: 163
+PO4 Counter: 163
+PO4 Counter: 163
+PO4 Counter: 169
+PO4 Counter: 178
+PO4 Counter: 188
+PO4 Counter: 198
+PO4 Counter: 199
+PO4 Counter: 199
+PO4 Counter: 200
+PO4 Counter: 204
+PO4 Counter: 205
+PO4 Counter: 205
+PO4 Counter: 205
+PO4 Counter: 210
+PO4 Counter: 212
+PO4 Counter: 216
+PO4 Counter: 217
+PO4 Counter: 218
+PO4 Counter: 218
+PO4 Counter: 222
+PO4 Counter: 226
+PO4 Counter: 226
+PO4 Counter: 231
+PO4 Counter: 231
+PO4 Counter: 233
+PO4 Counter: 234
+PO4 Counter: 238
+PO4 Counter: 238
+PO4 Counter: 241
+PO4 Counter: 241
+PO4 Counter: 242
+PO4 Counter: 246
+PO4 Counter: 247
+PO4 Counter: 248
+PO4 Counter: 249
+PO4 Counter: 252
+PO4 Counter: 252
+PO4 Counter: 256
+PO4 Counter: 258
+PO4 Counter: 260
+PO4 Counter: 261
+PO4 Counter: 269
+PO4 Counter: 269
+PO4 Counter: 270
+PO4 Counter: 270
+PO4 Counter: 272
+PO4 Counter: 273
+PO4 Counter: 275
+PO4 Counter: 277
+PO4 Counter: 277
+PO4 Counter: 276
+PO4 Counter: 276
+PO4 Counter: 277
+PO4 Counter: 277
+PO4 Counter: 277
+PO4 Counter: 289
+PO4 Counter: 292
+PO4 Counter: 293
+PO4 Counter: 293
+PO4 Counter: 294
+PO4 Counter: 299
+PO4 Counter: 299
+PO4 Counter: 300
+PO4 Counter: 302
+PO4 Counter: 303
+PO4 Counter: 304
+^C[arvnair@sl253-rrpc05 src1]$
+
+
